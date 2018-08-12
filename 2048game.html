@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>2048小游戏</title>
+	<link href="2048小游戏.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="container">
+		<h1>2048</h1>
+		<div class="heading">
+			<div class="score-container">
+				<div class="currentscore" id="currentscore">0</div>
+				<div class="bestscore" id="bestscore">0</div>
+			</div>
+			<button id="newGame" type="button">新游戏</button>
+		</div>
+		<p>按←↑→↓控制方块移动，将相同数字合并，得到数值<strong>2048</strong>你将获胜！</p>
+		<div class="game-container" id="game-container">
+			<div class="box">
+				<div class="row">
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+				</div>
+					<div class="row">
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+				</div>
+				<div class="row">
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+				</div>
+				<div class="row">
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+				</div>
+			</div>
+			<div class="tile-container" id="tile-container">
+
+			</div>
+		</div>
+		<div class="footer">版权 © PuYao</div>
+	</div>
+	<script type="text/javascript" src="2048小游戏.js"></script>
+</body>
+</html>
